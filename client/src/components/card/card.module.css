@@ -1,0 +1,80 @@
+
+.card{
+    background-color:  white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    border-radius: 24px;
+    padding: 2vw;
+}
+.card span,.card button{
+    letter-spacing: -0.02em;
+    font-family: "Roboto Light", Roboto, "Roboto Thin", serif;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: #4BCFA0;
+    color: white;
+    cursor: pointer;
+}
+
+.category{
+    font-size: 100%;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.name{
+    /*font-size: 2.6vw;*/
+    font-size: 260%;
+    line-height: 270%;
+}
+
+
+.buttomFolder *{
+    /*border: red solid 1px;*/
+
+}
+.buttomFolder{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    /*border:  red solid 2px;*/
+
+}
+.dollar{
+    /*font-size: 2.45vw;*/
+    font-size: 50%;
+    height: 50%;
+    position: relative;
+    top: 10%;
+    vertical-align: text-top;
+}
+.price{
+    font-size: 390%;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: 3.8vw;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding:   1.5vw;
+    border-radius: 16px;
+    background-color: transparent;
+    color: #4BCFA0;
+    font-size: 100%;
+}
+
+
+
+@media (max-width: 200px) {
+    .card {
+        align-items: center;
+    }
+}

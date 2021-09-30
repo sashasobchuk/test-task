@@ -1,0 +1,22 @@
+{
+  "name": "test-task",
+  "main": "index.js",
+  "description": "",
+  "version": "1.0.0",
+
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon app.js",
+    "client": "cd client && npm run start"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.2",
+    "cors": "^2.8.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8",
+    "node-dev": "^7.0.0",
+    "nodemon": "^2.0.13"
+  }
+}

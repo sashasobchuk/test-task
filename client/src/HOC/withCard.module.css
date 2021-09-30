@@ -1,0 +1,61 @@
+
+
+.WithCardContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.error{
+    color: red;
+}
+.name,.number,.order_btn{
+    width: 100%;
+    padding: 1vw;
+    border-radius:16px ;
+    font-size: 100%;
+    margin: 1vw 0;
+    border: black 1px solid;
+}
+.order_btn{
+    background-color: #4BCFA0;
+
+}
+.close{
+    position: absolute;
+    top:    -1.5vw;
+    right: -1.5vw;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 150%;
+    background-color: #F2F2F2;
+    border: 2px solid black;
+    z-index: 2;
+}
+.close:hover{
+    background-color: wheat;
+    transform: scale(1.1);
+    cursor: pointer;
+
+}
+@media (max-width: 500px) {
+    .close{
+        width: 5.5vw;
+        height: 5.5vw;
+        font-size: 150%;
+        border: 1px solid black;
+    }
+}
+@media (max-width: 500px) {
+    .close{
+        width: 5.5vw;
+        height: 5.5vw;
+        font-size: 150%;
+        border: 1px solid black;
+    }
+}
+
+
+
+
+

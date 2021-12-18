@@ -7,3 +7,16 @@
 4) Seed database ```seed```
 
 5) Run dev server ```npm start```
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+wrote on front and back side
+
+how it looks
+![img.png](img.png)
+![img_3.png](img_3.png)
+![img_2.png](img_2.png)
+
+
